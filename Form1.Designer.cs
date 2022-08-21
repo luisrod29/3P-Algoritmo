@@ -71,23 +71,23 @@
             this.txtArray.Location = new System.Drawing.Point(12, 51);
             this.txtArray.Name = "txtArray";
             this.txtArray.ReadOnly = true;
-            this.txtArray.Size = new System.Drawing.Size(861, 296);
+            this.txtArray.Size = new System.Drawing.Size(861, 194);
             this.txtArray.TabIndex = 1;
             this.txtArray.Text = "";
             // 
             // txtOrden
             // 
-            this.txtOrden.Location = new System.Drawing.Point(16, 406);
+            this.txtOrden.Location = new System.Drawing.Point(11, 304);
             this.txtOrden.Name = "txtOrden";
             this.txtOrden.ReadOnly = true;
-            this.txtOrden.Size = new System.Drawing.Size(276, 449);
+            this.txtOrden.Size = new System.Drawing.Size(276, 281);
             this.txtOrden.TabIndex = 2;
             this.txtOrden.Text = "";
             // 
             // btnOrdenar
             // 
             this.btnOrdenar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOrdenar.Location = new System.Drawing.Point(180, 369);
+            this.btnOrdenar.Location = new System.Drawing.Point(175, 267);
             this.btnOrdenar.Name = "btnOrdenar";
             this.btnOrdenar.Size = new System.Drawing.Size(99, 31);
             this.btnOrdenar.TabIndex = 3;
@@ -98,7 +98,7 @@
             // txtTimeBubble
             // 
             this.txtTimeBubble.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTimeBubble.Location = new System.Drawing.Point(108, 881);
+            this.txtTimeBubble.Location = new System.Drawing.Point(981, 362);
             this.txtTimeBubble.Name = "txtTimeBubble";
             this.txtTimeBubble.ReadOnly = true;
             this.txtTimeBubble.Size = new System.Drawing.Size(184, 26);
@@ -108,7 +108,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 858);
+            this.label1.Location = new System.Drawing.Point(885, 339);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(267, 20);
             this.label1.TabIndex = 5;
@@ -117,27 +117,27 @@
             // 
             // txtQuick
             // 
-            this.txtQuick.Location = new System.Drawing.Point(306, 406);
+            this.txtQuick.Location = new System.Drawing.Point(301, 304);
             this.txtQuick.Name = "txtQuick";
             this.txtQuick.ReadOnly = true;
-            this.txtQuick.Size = new System.Drawing.Size(276, 449);
+            this.txtQuick.Size = new System.Drawing.Size(276, 281);
             this.txtQuick.TabIndex = 6;
             this.txtQuick.Text = "";
             // 
             // txtTimeQuick
             // 
             this.txtTimeQuick.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTimeQuick.Location = new System.Drawing.Point(382, 881);
+            this.txtTimeQuick.Location = new System.Drawing.Point(981, 434);
             this.txtTimeQuick.Name = "txtTimeQuick";
             this.txtTimeQuick.ReadOnly = true;
-            this.txtTimeQuick.Size = new System.Drawing.Size(200, 26);
+            this.txtTimeQuick.Size = new System.Drawing.Size(184, 26);
             this.txtTimeQuick.TabIndex = 7;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(327, 858);
+            this.label2.Location = new System.Drawing.Point(885, 411);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(256, 20);
             this.label2.TabIndex = 8;
@@ -146,7 +146,7 @@
             // btnQuick
             // 
             this.btnQuick.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQuick.Location = new System.Drawing.Point(483, 369);
+            this.btnQuick.Location = new System.Drawing.Point(478, 267);
             this.btnQuick.Name = "btnQuick";
             this.btnQuick.Size = new System.Drawing.Size(99, 31);
             this.btnQuick.TabIndex = 9;
@@ -167,7 +167,7 @@
             // btnInsercion
             // 
             this.btnInsercion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInsercion.Location = new System.Drawing.Point(774, 369);
+            this.btnInsercion.Location = new System.Drawing.Point(769, 267);
             this.btnInsercion.Name = "btnInsercion";
             this.btnInsercion.Size = new System.Drawing.Size(99, 31);
             this.btnInsercion.TabIndex = 14;
@@ -179,7 +179,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(602, 858);
+            this.label4.Location = new System.Drawing.Point(885, 490);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(271, 20);
             this.label4.TabIndex = 13;
@@ -188,18 +188,18 @@
             // txtTimeInsercion
             // 
             this.txtTimeInsercion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTimeInsercion.Location = new System.Drawing.Point(673, 881);
+            this.txtTimeInsercion.Location = new System.Drawing.Point(981, 513);
             this.txtTimeInsercion.Name = "txtTimeInsercion";
             this.txtTimeInsercion.ReadOnly = true;
-            this.txtTimeInsercion.Size = new System.Drawing.Size(200, 26);
+            this.txtTimeInsercion.Size = new System.Drawing.Size(184, 26);
             this.txtTimeInsercion.TabIndex = 12;
             // 
             // txtInsercion
             // 
-            this.txtInsercion.Location = new System.Drawing.Point(597, 406);
+            this.txtInsercion.Location = new System.Drawing.Point(592, 304);
             this.txtInsercion.Name = "txtInsercion";
             this.txtInsercion.ReadOnly = true;
-            this.txtInsercion.Size = new System.Drawing.Size(276, 449);
+            this.txtInsercion.Size = new System.Drawing.Size(276, 281);
             this.txtInsercion.TabIndex = 11;
             this.txtInsercion.Text = "";
             // 
@@ -225,10 +225,10 @@
             // txtBinaryTime
             // 
             this.txtBinaryTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBinaryTime.Location = new System.Drawing.Point(109, 52);
+            this.txtBinaryTime.Location = new System.Drawing.Point(6, 35);
             this.txtBinaryTime.Name = "txtBinaryTime";
             this.txtBinaryTime.ReadOnly = true;
-            this.txtBinaryTime.Size = new System.Drawing.Size(205, 26);
+            this.txtBinaryTime.Size = new System.Drawing.Size(308, 26);
             this.txtBinaryTime.TabIndex = 19;
             // 
             // groupBox1
@@ -236,9 +236,9 @@
             this.groupBox1.Controls.Add(this.txtBinaryIndex);
             this.groupBox1.Controls.Add(this.txtBinaryTime);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(883, 102);
+            this.groupBox1.Location = new System.Drawing.Point(883, 92);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(320, 153);
+            this.groupBox1.Size = new System.Drawing.Size(320, 108);
             this.groupBox1.TabIndex = 21;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Busqueda Binaria:";
@@ -246,10 +246,10 @@
             // txtBinaryIndex
             // 
             this.txtBinaryIndex.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBinaryIndex.Location = new System.Drawing.Point(109, 106);
+            this.txtBinaryIndex.Location = new System.Drawing.Point(6, 67);
             this.txtBinaryIndex.Name = "txtBinaryIndex";
             this.txtBinaryIndex.ReadOnly = true;
-            this.txtBinaryIndex.Size = new System.Drawing.Size(205, 26);
+            this.txtBinaryIndex.Size = new System.Drawing.Size(308, 26);
             this.txtBinaryIndex.TabIndex = 20;
             // 
             // groupBox2
@@ -257,9 +257,9 @@
             this.groupBox2.Controls.Add(this.txtSecuentialIndex);
             this.groupBox2.Controls.Add(this.txtSecuentialTime);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(883, 274);
+            this.groupBox2.Location = new System.Drawing.Point(883, 206);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(320, 153);
+            this.groupBox2.Size = new System.Drawing.Size(320, 107);
             this.groupBox2.TabIndex = 22;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Busqueda Secuencial:";
@@ -267,26 +267,26 @@
             // txtSecuentialIndex
             // 
             this.txtSecuentialIndex.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSecuentialIndex.Location = new System.Drawing.Point(109, 106);
+            this.txtSecuentialIndex.Location = new System.Drawing.Point(6, 66);
             this.txtSecuentialIndex.Name = "txtSecuentialIndex";
             this.txtSecuentialIndex.ReadOnly = true;
-            this.txtSecuentialIndex.Size = new System.Drawing.Size(205, 26);
+            this.txtSecuentialIndex.Size = new System.Drawing.Size(308, 26);
             this.txtSecuentialIndex.TabIndex = 20;
             // 
             // txtSecuentialTime
             // 
             this.txtSecuentialTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSecuentialTime.Location = new System.Drawing.Point(109, 52);
+            this.txtSecuentialTime.Location = new System.Drawing.Point(6, 34);
             this.txtSecuentialTime.Name = "txtSecuentialTime";
             this.txtSecuentialTime.ReadOnly = true;
-            this.txtSecuentialTime.Size = new System.Drawing.Size(205, 26);
+            this.txtSecuentialTime.Size = new System.Drawing.Size(308, 26);
             this.txtSecuentialTime.TabIndex = 19;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1215, 925);
+            this.ClientSize = new System.Drawing.Size(1215, 607);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.txtSeekElement);
@@ -307,7 +307,8 @@
             this.Controls.Add(this.txtArray);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "ALGORITMOS DE BUSQUEDA Y ORDENAMIENTO";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

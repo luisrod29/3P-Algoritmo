@@ -20,7 +20,7 @@ namespace Algoritmos
         }
 
         //int dato = 0;
-        int[] array = new int[10000];
+        int[] array = new int[1000];
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -29,7 +29,7 @@ namespace Algoritmos
 
         public void llenadoArray()
         {
-            for (int i = 0; i < 10000; i++)
+            for (int i = 0; i < array.Length; i++)
             {
                 array[i] = random.Next(0, 10000);
                 txtArray.Text = txtArray.Text + ", " + array[i].ToString();
@@ -261,6 +261,11 @@ namespace Algoritmos
                 txtSecuentialIndex.Text = "EL DATO ESTA EN EL INDEX: " + secuentialResult.ToString();
             }
 
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
     }
