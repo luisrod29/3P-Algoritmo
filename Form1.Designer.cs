@@ -51,6 +51,9 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txtSecuentialIndex = new System.Windows.Forms.TextBox();
             this.txtSecuentialTime = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -98,10 +101,10 @@
             // txtTimeBubble
             // 
             this.txtTimeBubble.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTimeBubble.Location = new System.Drawing.Point(981, 362);
+            this.txtTimeBubble.Location = new System.Drawing.Point(889, 362);
             this.txtTimeBubble.Name = "txtTimeBubble";
             this.txtTimeBubble.ReadOnly = true;
-            this.txtTimeBubble.Size = new System.Drawing.Size(184, 26);
+            this.txtTimeBubble.Size = new System.Drawing.Size(276, 26);
             this.txtTimeBubble.TabIndex = 4;
             // 
             // label1
@@ -127,10 +130,10 @@
             // txtTimeQuick
             // 
             this.txtTimeQuick.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTimeQuick.Location = new System.Drawing.Point(981, 434);
+            this.txtTimeQuick.Location = new System.Drawing.Point(889, 434);
             this.txtTimeQuick.Name = "txtTimeQuick";
             this.txtTimeQuick.ReadOnly = true;
-            this.txtTimeQuick.Size = new System.Drawing.Size(184, 26);
+            this.txtTimeQuick.Size = new System.Drawing.Size(276, 26);
             this.txtTimeQuick.TabIndex = 7;
             // 
             // label2
@@ -188,10 +191,10 @@
             // txtTimeInsercion
             // 
             this.txtTimeInsercion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTimeInsercion.Location = new System.Drawing.Point(981, 513);
+            this.txtTimeInsercion.Location = new System.Drawing.Point(889, 513);
             this.txtTimeInsercion.Name = "txtTimeInsercion";
             this.txtTimeInsercion.ReadOnly = true;
-            this.txtTimeInsercion.Size = new System.Drawing.Size(184, 26);
+            this.txtTimeInsercion.Size = new System.Drawing.Size(276, 26);
             this.txtTimeInsercion.TabIndex = 12;
             // 
             // txtInsercion
@@ -282,11 +285,44 @@
             this.txtSecuentialTime.Size = new System.Drawing.Size(308, 26);
             this.txtSecuentialTime.TabIndex = 19;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(12, 272);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(109, 20);
+            this.label5.TabIndex = 23;
+            this.label5.Text = "Bubble Sort:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(306, 272);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(98, 20);
+            this.label6.TabIndex = 24;
+            this.label6.Text = "Quick Sort:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(588, 272);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(127, 20);
+            this.label7.TabIndex = 25;
+            this.label7.Text = "Insercion Sort:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1215, 607);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.txtSeekElement);
@@ -343,6 +379,9 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox txtSecuentialIndex;
         private System.Windows.Forms.TextBox txtSecuentialTime;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }
 

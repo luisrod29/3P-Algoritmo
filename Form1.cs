@@ -14,9 +14,11 @@ namespace Algoritmos
     public partial class Form1 : Form
     {
         Random random = new Random();
+        Process currentProcess = Process.GetCurrentProcess();
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         //int dato = 0;
@@ -34,6 +36,8 @@ namespace Algoritmos
                 array[i] = random.Next(0, 10000);
                 txtArray.Text = txtArray.Text + ", " + array[i].ToString();
             }
+
+            MessageBox.Show("El array ya esta llegano");
         }
 
         public void llenadoArrayOrden(int[] bubble)
@@ -77,6 +81,7 @@ namespace Algoritmos
             String tiempo = $"{stopwatch.Elapsed.TotalMilliseconds} ms";
             llenadoArrayOrden(array);
             txtTimeBubble.Text = tiempo;
+            MessageBox.Show("El metodo Burbuja, termino de ordenar");
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -88,6 +93,7 @@ namespace Algoritmos
             String tiempo = $"{stopwatch.Elapsed.TotalMilliseconds} ms";
             llenadoArrayQuick(quick);
             txtTimeQuick.Text = tiempo;
+            MessageBox.Show("El metodo Quick Sort, termino de ordenar");
         }
 
         private void btnInsercion_Click(object sender, EventArgs e)
@@ -99,6 +105,7 @@ namespace Algoritmos
             String tiempo = $"{stopwatch.Elapsed.TotalMilliseconds} ms";
             llenadoArrayInsercion(insercion);
             txtTimeInsercion.Text = tiempo;
+            MessageBox.Show("El metodo Insercion, termino de ordenar");
         }
 
         public int[] BubbleSort(int[] arr)
@@ -261,7 +268,9 @@ namespace Algoritmos
                 txtSecuentialIndex.Text = "EL DATO ESTA EN EL INDEX: " + secuentialResult.ToString();
             }
 
-
+            long usedMemory = currentProcess.PrivateMemorySize64;
+            double memory = (usedMemory / 1024f) / 1024f;
+            MessageBox.Show(usedMemory.ToString() + " Bytes");
         }
 
         private void Form1_Load(object sender, EventArgs e)
