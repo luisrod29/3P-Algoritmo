@@ -1,0 +1,11 @@
+C:\Users\fedwi\source\repos\Algoritmos\bin\Debug\Algoritmos.exe.config
+C:\Users\fedwi\source\repos\Algoritmos\bin\Debug\Algoritmos.exe
+C:\Users\fedwi\source\repos\Algoritmos\bin\Debug\Algoritmos.pdb
+C:\Users\fedwi\source\repos\Algoritmos\obj\Debug\Algoritmos.csproj.AssemblyReference.cache
+C:\Users\fedwi\source\repos\Algoritmos\obj\Debug\Algoritmos.csproj.SuggestedBindingRedirects.cache
+C:\Users\fedwi\source\repos\Algoritmos\obj\Debug\Algoritmos.Form1.resources
+C:\Users\fedwi\source\repos\Algoritmos\obj\Debug\Algoritmos.Properties.Resources.resources
+C:\Users\fedwi\source\repos\Algoritmos\obj\Debug\Algoritmos.csproj.GenerateResource.cache
+C:\Users\fedwi\source\repos\Algoritmos\obj\Debug\Algoritmos.csproj.CoreCompileInputs.cache
+C:\Users\fedwi\source\repos\Algoritmos\obj\Debug\Algoritmos.exe
+C:\Users\fedwi\source\repos\Algoritmos\obj\Debug\Algoritmos.pdb
