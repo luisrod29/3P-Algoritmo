@@ -37,7 +37,7 @@ namespace Algoritmos
                 txtArray.Text = txtArray.Text + ", " + array[i].ToString();
             }
 
-            MessageBox.Show("El array ya esta llegano");
+            MessageBox.Show("El proceso de llenado del vector, se completo", "ARRAY");
         }
 
         public void llenadoArrayOrden(int[] bubble)
@@ -81,7 +81,7 @@ namespace Algoritmos
             String tiempo = $"{stopwatch.Elapsed.TotalMilliseconds} ms";
             llenadoArrayOrden(array);
             txtTimeBubble.Text = tiempo;
-            MessageBox.Show("El metodo Burbuja, termino de ordenar");
+            MessageBox.Show("El metodo Burbuja, termino de ordenar", "BUBBLE SORT");
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -93,7 +93,7 @@ namespace Algoritmos
             String tiempo = $"{stopwatch.Elapsed.TotalMilliseconds} ms";
             llenadoArrayQuick(quick);
             txtTimeQuick.Text = tiempo;
-            MessageBox.Show("El metodo Quick Sort, termino de ordenar");
+            MessageBox.Show("El metodo Quick Sort, termino de ordenar", "QUICK SORT");
         }
 
         private void btnInsercion_Click(object sender, EventArgs e)
@@ -105,7 +105,7 @@ namespace Algoritmos
             String tiempo = $"{stopwatch.Elapsed.TotalMilliseconds} ms";
             llenadoArrayInsercion(insercion);
             txtTimeInsercion.Text = tiempo;
-            MessageBox.Show("El metodo Insercion, termino de ordenar");
+            MessageBox.Show("El metodo Insercion, termino de ordenar", "INSERTION SORT");
         }
 
         public int[] BubbleSort(int[] arr)
@@ -270,7 +270,7 @@ namespace Algoritmos
 
             long usedMemory = currentProcess.PrivateMemorySize64;
             double memory = (usedMemory / 1024f) / 1024f;
-            MessageBox.Show(usedMemory.ToString() + " Bytes");
+            MessageBox.Show(usedMemory.ToString() + " Bytes", "MEMORIA UTILIZADA");
         }
 
         private void Form1_Load(object sender, EventArgs e)
